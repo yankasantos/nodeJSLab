@@ -1,0 +1,30 @@
+{
+  "name": "uploadfiles",
+  "version": "1.0.0",
+  "description": "boilerplate de como criar um upload de arquivos com nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankasantos/nodeJSLab.git"
+  },
+  "author": "yankasantos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankasantos/nodeJSLab/issues"
+  },
+  "homepage": "https://github.com/yankasantos/nodeJSLab#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
