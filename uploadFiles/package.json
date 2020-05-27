@@ -1,11 +1,7 @@
 {
-  "name": "uploadfiles",
+  "name": "uploadFiles",
   "version": "1.0.0",
-  "description": "boilerplate de como criar um upload de arquivos com nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "[Material de estudo][1] [1]:https://www.youtube.com/watch?v=b6Oe2puTdMQ",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yankasantos/nodeJSLab.git"
@@ -16,4 +12,5 @@
     "url": "https://github.com/yankasantos/nodeJSLab/issues"
   },
   "homepage": "https://github.com/yankasantos/nodeJSLab#readme"
+
 }
